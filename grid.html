@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        .child {
+            padding: 20px;
+            border: 2px solid crimson;
+            background-color: lightcoral;
+            margin: 0;
+        }
+
+        .parent {
+            display: grid;
+
+            /* grid-template-columns: 200px 300px 400px; */
+
+            grid-template-columns: 1fr 2fr 3fr;
+            gap: 20px;
+            
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="parent">
+        <p class="child">Child 1</p>
+        <p class="child">Child 2</p>
+        <p class="child">Child 3</p>
+        <p class="child">Child 4</p>
+        <p class="child">Child 5</p>
+        <p class="child">Child 6</p>
+        <p class="child">Child 7</p>
+        <p class="child">Child 8</p>
+        <p class="child">Child 9</p>
+    </div>
+
+</body>
+
+</html>
